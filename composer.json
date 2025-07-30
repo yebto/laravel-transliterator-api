@@ -1,0 +1,31 @@
+{
+    "name": "yebto/laravel-transliterator-api",
+    "description": "Laravel SDK wrapper for YEB Transliterator API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NETOX Ltd.",
+            "email": "support@yeb.to"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yebto\\TransliteratorAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yebto\\TransliteratorAPI\\TransliteratorAPIServiceProvider"
+            ],
+            "aliases": {
+                "TransliteratorAPI": "Yebto\\TransliteratorAPI\\Facades\\TransliteratorAPI"
+            }
+        }
+    }
+}
