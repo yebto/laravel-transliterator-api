@@ -135,6 +135,7 @@ class GenerateFilename implements ShouldQueue
         // ...
     }
 }
+```
 ---
 
 ## Free Tier Access
