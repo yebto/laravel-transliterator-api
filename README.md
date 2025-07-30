@@ -1,7 +1,7 @@
 ---
 # Laravel Transliterator API SDK
 
-Simple, fluent Laravel 10 / 11 wrapper around the **[YEB Transliterator](https://yeb.to)** endpoint—convert Cyrillic, Greek, and other non-Latin text to Romanised output or various case/sluggified forms straight from your Laravel codebase.
+Simple, fluent Laravel 10 / 11 wrapper around the **[YEB Transliterator](https://yeb.to/api/transliterator)** endpoint—convert Cyrillic, Greek, and other non-Latin text to Romanised output or various case/sluggified forms straight from your Laravel codebase.
 
 ---
 
@@ -158,14 +158,14 @@ If you encounter issues:
 
 * Ensure your API key is correct and active
 * Double-check that the config file is published
-* Validate parameters against the [API reference](https://docs.yeb.to/)
+* Validate parameters against the [API reference](https://yeb.to/api/transliterator)
 * Check for typos in method names or required fields
 
 ---
 
 ## Support
 
-* 📘 API Documentation: [https://docs.yeb.to](https://docs.yeb.to)
+* 📘 API Documentation: [https://yeb.to/api/transliterator](https://yeb.to/api/transliterator)
 * 📧 Email: [support@yeb.to](mailto:support@yeb.to)
 * 🐛 Issues: [GitHub Issues](https://github.com/yebto/youtube-api/issues)
 
